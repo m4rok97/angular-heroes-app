@@ -9,6 +9,7 @@ import { HeroesRoutingModule } from './heroes-routing.module';
 import { MaterialModule } from '../material/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HeroCardComponent } from './components/hero-card/hero-card.component';
+import { HeroImagePipe } from './pipes/hero.pipe';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HeroCardComponent } from './components/hero-card/hero-card.component';
     HomeComponent,
     ListComponent,
     HeroCardComponent,
+    HeroImagePipe,
   ],
   imports: [
     CommonModule,
