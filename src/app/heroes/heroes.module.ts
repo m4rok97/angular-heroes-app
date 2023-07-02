@@ -10,6 +10,7 @@ import { MaterialModule } from '../material/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HeroCardComponent } from './components/hero-card/hero-card.component';
 import { HeroImagePipe } from './pipes/hero.pipe';
+import { ConfirmComponent } from './components/confirm/confirm.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HeroImagePipe } from './pipes/hero.pipe';
     ListComponent,
     HeroCardComponent,
     HeroImagePipe,
+    ConfirmComponent,
   ],
   imports: [
     CommonModule,
